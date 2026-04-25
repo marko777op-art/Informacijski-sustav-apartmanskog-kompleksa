@@ -49,9 +49,6 @@ VAŽNO
 
 Datoteka Database.java nije uključena u repozitorij jer sadrži privatne podatke (lozinke).
 Korisnik mora sam kreirati datoteku:
-
-KOD
-
 src/zavrsniRad/Database.java
 
 PRIMJER SADRŽAJA
