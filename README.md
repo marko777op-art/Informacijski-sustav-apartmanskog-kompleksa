@@ -40,6 +40,7 @@ zavrsniRad/
 │── README.md                # Ovaj file
 
 BAZA PODATAKA
+
 Aplikacija koristi MySQL.
 
 VAŽNO
