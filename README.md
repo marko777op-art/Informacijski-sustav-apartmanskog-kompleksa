@@ -3,6 +3,7 @@ Aplikacija za upravljanje apartmanima, gostima, rezervacijama i računima.
 Izrađena u Java Swingu, uz korištenje MySQL baze i dodatnih biblioteka (SwingX, Apache POI, JCalendar).
 
 FUNKCIONALNOSTI
+
 Upravljanje apartmanima (pregled, dodavanje, uređivanje, brisanje, slike)
 Upravljanje gostima
 Upravljanje rezervacijama
@@ -13,6 +14,7 @@ Validacija unosa
 Automatsko otvaranje generiranih izvještaja
 
 STRUKTURA PROJEKTA
+
 zavrsniRad/
 │── src/                     # Izvorni kod
 │── lib/                     # Svi potrebni JAR-ovi (obavezno)
