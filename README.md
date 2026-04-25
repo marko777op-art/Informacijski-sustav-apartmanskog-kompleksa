@@ -3,6 +3,7 @@ Aplikacija za upravljanje apartmanima, gostima, rezervacijama i računima.
 Izrađena u Java Swingu, uz korištenje MySQL baze i dodatnih biblioteka (SwingX, Apache POI, JCalendar).
 
 FUNKCIONALNOSTI
+
 Upravljanje apartmanima (pregled, dodavanje, uređivanje, brisanje, slike)
 Upravljanje gostima
 Upravljanje rezervacijama
@@ -13,28 +14,48 @@ Validacija unosa
 Automatsko otvaranje generiranih izvještaja
 
 STRUKTURA PROJEKTA
+
 zavrsniRad/
+
 │── src/                     # Izvorni kod
+
 │── lib/                     # Svi potrebni JAR-ovi (obavezno)
+
 │── img/                     # Ikone
+
 │── slike_apartmana/         # Slike apartmana
+
+│── dokumentacija/
+
+│── screenshots/
+
+│── app.jar/
+
 │── .classpath
+
 │── .project
+
 │── .gitignore
+
 │── README.md                # Ovaj file
+
 Potrebne biblioteke (nalaze se u /lib)
 
 BAZA PODATAKA
+
 Aplikacija koristi MySQL.
 
 VAŽNO
+
 Datoteka Database.java nije uključena u repozitorij jer sadrži privatne podatke (lozinke).
 Korisnik mora sam kreirati datoteku:
 
 KOD
+
 src/zavrsniRad/Database.java
 
 PRIMJER SADRŽAJA
+
 java
 public class Database {
     public static Connection getConnection() throws Exception {
@@ -47,6 +68,7 @@ public class Database {
 }
 
 POKRETANJE APLIKACIJE
+
 1.Klonirati repozitorij
 2.Importati projekt u Eclipse (Existing Java Project)
 3.Provjeriti da su svi JAR-ovi dodani u Build Path
@@ -54,9 +76,11 @@ POKRETANJE APLIKACIJE
 5.Pokrenuti Main.java (ili klasu koja otvara login/glavni izbornik)
 
 SLIKE KORIŠTENJA APLIKACIJE
+
 Slike aplikacije nalaze se u folderu `screenshots/`.
 
 NAPOMENA
+
 Ovaj projekt je izrađen kao završni rad i služi kao demonstracija rada s:
 Swing GUI-em
 SQL bazama
